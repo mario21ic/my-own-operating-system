@@ -4,5 +4,5 @@ RUN apt-get update && \
     apt-get upgrade -y &&\
     apt-get install -y nasm xorriso grub-pc-bin grub-common
 
-VOLUME /root/env
-WORKDIR /root/env
+VOLUME /build/env
+WORKDIR /build/env
